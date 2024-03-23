@@ -5,11 +5,12 @@ This goal is to accurately predict house prices to identify potential opportunit
 
 # Getting Started
 
+```
 from google.colab import drive
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 from sklearn import datasets as ds
 import numpy as np
-
+```
 
