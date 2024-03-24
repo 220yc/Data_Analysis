@@ -1,7 +1,7 @@
 # -House-Price-Prediction🏠🏠🏠🔍
 House price prediction enables better decision-making, risk assessment, and market analysis in the context of housing investments and economic trends.
 
-This goal is to accurately predict house prices to identify potential opportunities for profitable investments, financial planning and making informed decisions regarding housing investments.
+The goal is to accurately predict house prices to identify potential opportunities for profitable investments, financial planning and making informed decisions regarding housing investments.
 
 # Data Analysis
 **Import the library**
@@ -24,7 +24,7 @@ df.describe()
 ```
 These lines of code display information about the DataFrame, including column names, data types, and the number of non-null values. The `df.describe()` function provides statistical summary of the numerical columns in the DataFrame.  
   
-**Drop the ID column as it is not necessary for model training**
+**Drop the ID column as it is not necessary for model training**  
 ```
 df.drop('ID', axis=1, inplace=True)
 df = df.drop(['remarks'],axis=1)
