@@ -353,4 +353,4 @@ print('Gradient Boosting R square:', r2)
 <img src="https://github.com/220yc/-House-Price-Prediction/assets/91858697/87549cc6-d62c-4a7f-91bb-6d1d592c11e5" width="150" height="250"/>  
   
 # Data Analysis
-Test Result
+**Test Result**
