@@ -331,5 +331,24 @@ print('Decision Tree R square:', r2)
 ```
 - Decision Tree R square: 0.8007312652631591  
 
+**Gradient Boosting Regression**
+```
+from sklearn.ensemble import GradientBoostingRegressor
+import pandas as pd
 
+# Create a Gradient Boosting regression model
+gb_model = GradientBoostingRegressor(n_estimators=200, random_state=60)
+
+# Fit the model using the training data
+gb_model.fit(X_train, y_train)
+
+# Predict
+y_pred = gb_model.predict(X_test)
+
+# Evaluate the performance
+r2 = r2_score(y_test, y_pred)
+print('Gradient Boosting R square:', r2)
+```
+- Gradient Boosting R square: 0.9020817312998458
+<img src="https://github.com/220yc/-House-Price-Prediction/assets/91858697/87549cc6-d62c-4a7f-91bb-6d1d592c11e5" width="150" height="250"/>  
 
